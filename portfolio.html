@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Laima Stinskaite - Portfolio</title>
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Header of the page which consists of logo-image and title -->
+			<header>
+				<div class="row">
+					<div class="col-md-6">
+						<img class="title-logo" src="images/udacity-logo.png" alt="Udacity logo">
+					</div>
+					<div class="col-md-6 text-right text-uppercase">
+						<h1 class="title-super text-thin">Laima Stinskaite</h1>
+						<h4>Front-End Web Developer</h4>
+					</div>
+				</div>
+			</header>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>				
+			</div>
+			<!-- Section of main image -->
+			<section>
+				<div class="row">
+					<div class="col-md-12">
+						<img class="img-responsive" src="images/portfolio.jpg" alt="Main image">
+					</div>
+				</div>
+			</section>
+			<!-- Section of 3 images with links to other projects -->
+			<section>
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="text-muted">Featured Work</h2>
+					</div>
+				</div>
+				<div class="row text-center">				
+					<div class="col-md-4">
+						<img class="img-responsive" src="images/resume.jpg" data-toggle="modal" data-target="#project1" alt="Resume">
+						<h3 class="text-uppercase">Resume</h3>
+						<p>
+							<a class="portfolio-link" href="https://github.com/laisti/Resume" target="_blank">https://github.com/laisti/Resume</a>
+	          			</p>
+					</div>				
+					<div class="col-md-4">
+						<img class="img-responsive" src="images/arcade-game.jpg" data-toggle="modal" data-target="#project2" alt="Arcade Game">
+						<h3 class="text-uppercase">Arcade Game</h3>
+						<p>
+							<a class="portfolio-link" href="https://github.com/laisti/Arcade_game" target="_blank">https://github.com/laisti/Arcade_game</a>
+						</p>
+					</div>				
+					<div class="col-md-4">
+						<img class="img-responsive" src="images/website-optimization.jpg" data-toggle="modal" data-target="#project3" alt="Website Optimization">
+						<h3 class="text-uppercase">Website Optimization</h3>
+						<p>
+							<a class="portfolio-link" href="https://github.com/laisti/Website_optimization" target="_blank">https://github.com/laisti/Website_optimization</a>
+						</p>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel1">Resume</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="images/resume.jpg" alt="Resume">
+		        This is my second project about the creation of my resume. I have written clean code and have applied my knowledge of JavaScript, jQuery DOM manipulation methods and JSON to successfully solve the challenges.
+		      </div>
+		      <div class="modal-footer">
+		        <button class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel2">Arcade Game</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="images/arcade-game.jpg" alt="Arcade Game">
+		        This is my third project about the creation of the game. I have used JavaScript’s object oriented programming features to write eloquently designed classes capable of creating countless instances of similarly functioning objects.
+		      </div>
+		      <div class="modal-footer">
+		        <button class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h4 class="modal-title" id="myModalLabel3">Website Optimization</h4>
+		      </div>
+		      <div class="modal-body">
+		        <img class="img-responsive" src="images/website-optimization.jpg" alt="Website Optimization">
+		        This is my forth project about the website optimization. I have used the principles of the critical rendering path. I have started to think of my work as a continuously running web application that requires a consistent framerate to produce the most enjoyable user experience.
+		      </div>
+		      <div class="modal-footer">
+		        <button class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+	</body>
+</html>
